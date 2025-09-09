@@ -92,7 +92,7 @@ export const TrendingSection = () => {
             See all <img src={arrow} alt="up-right-arrow" />
           </button>
         </div>
-        <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div className="w-full grid grid-cols-1 md:grid-cols-4 gap-6">
           {items.map((item, index) => (
             <div key={index} className="card bg-[#FFFFFF] border-2 border-[#E5E7EB] rounded-[14px]">
               {item.shop && (

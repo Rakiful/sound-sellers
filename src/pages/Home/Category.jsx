@@ -53,7 +53,7 @@ export const Category = () => {
         {categoryItem.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col justify-center gap-2 items-center p-[25px] border-[#E5E7EB] border-[1px] rounded-[14px]"
+            className="flex flex-col justify-center gap-3 items-center p-[25px] border-[#E5E7EB] border-[1px] rounded-[14px]"
           >
             <img src={item.image} alt={item.name} />
             <h6 className="text-[20px] font-[500]">{item.name}</h6>

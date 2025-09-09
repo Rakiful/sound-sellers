@@ -4,6 +4,7 @@ import { Banner } from "./Banner";
 import { Category } from "./Category";
 import { TrendingSection } from "./TrendingSection";
 import { TopMusic } from "./TopMusic";
+import { WhyChoose } from "./WhyChoose";
 
 export const Home = () => {
   return (
@@ -12,7 +13,8 @@ export const Home = () => {
       <Banner />
       <Category />
       <TrendingSection />
-      <TopMusic/>
+      <TopMusic />
+      <WhyChoose />
     </div>
   );
 };
