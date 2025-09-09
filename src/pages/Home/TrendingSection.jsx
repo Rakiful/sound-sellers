@@ -129,7 +129,7 @@ export const TrendingSection = () => {
                   )}
                 </p>
                 <div className="flex gap-2">
-                  <button className="w-3/4 bg-[#A67C52] text-white flex gap-3 items-center py-[8px] rounded-full justify-center">
+                  <button className="w-3/4 bg-[#A67C52] text-white text-[18px] flex gap-3 items-center py-[8px] rounded-full justify-center">
                     <img
                       src={item.itemfor === "Buy Now" ? white_cart : callender}
                       alt={
