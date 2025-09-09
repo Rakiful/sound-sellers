@@ -11,7 +11,7 @@ export const Banner = () => {
         <h1 className="text-4xl md:text-[56px] font-[700] mb-6">
           Your Sound, Your Story
         </h1>
-        <p className="text-sm md:text-[20px] max-w-[532px] mb-14">
+        <p className="text-[#FFFFFF] font-[400] text-sm md:text-[20px] max-w-[532px] mb-14">
           Buy, sell, and rent musical instruments from trusted sellers. Connect
           with top music teachers and find your perfect sound.
         </p>
