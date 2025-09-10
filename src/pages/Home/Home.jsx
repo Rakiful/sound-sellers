@@ -12,7 +12,6 @@ import { NewsLetter } from "./NewsLetter";
 export const Home = () => {
   return (
     <div>
-      <Navbar />
       <Banner />
       <Category />
       <TrendingSection />
