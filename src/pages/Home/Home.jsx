@@ -5,6 +5,7 @@ import { Category } from "./Category";
 import { TrendingSection } from "./TrendingSection";
 import { TopMusic } from "./TopMusic";
 import { WhyChoose } from "./WhyChoose";
+import { ChoosePlan } from "./ChoosePlan";
 
 export const Home = () => {
   return (
@@ -15,6 +16,7 @@ export const Home = () => {
       <TrendingSection />
       <TopMusic />
       <WhyChoose />
+      <ChoosePlan />
     </div>
   );
 };
