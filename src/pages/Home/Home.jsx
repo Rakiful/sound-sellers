@@ -7,6 +7,7 @@ import { TopMusic } from "./TopMusic";
 import { WhyChoose } from "./WhyChoose";
 import { ChoosePlan } from "./ChoosePlan";
 import { HowItWorks } from "./HowItWorks";
+import { NewsLetter } from "./NewsLetter";
 
 export const Home = () => {
   return (
@@ -19,6 +20,7 @@ export const Home = () => {
       <WhyChoose />
       <ChoosePlan />
       <HowItWorks />
+      <NewsLetter />
     </div>
   );
 };
